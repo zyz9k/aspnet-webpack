@@ -4,6 +4,7 @@
   "description": "Helpers for using Webpack in ASP.NET Core projects. Works in conjunction with the Microsoft.AspNetCore.SpaServices NuGet package.",
   "main": "index.js",
   "scripts": {
+    "build": "node build.js",
     "prepublish": "rimraf *.d.ts && tsc && echo 'Finished building NPM package \"aspnet-webpack\"'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,6 +32,5 @@
     "rimraf": "^2.5.4",
     "typescript": "^2.0.0",
     "webpack": "^1.13.2"
-  },
-  
+  }
 }
